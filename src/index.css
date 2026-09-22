@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+:root {
+  color-scheme: light;
+  font-family: Inter, "Segoe UI", sans-serif;
+  background: #f8fafc;
+  color: #0f172a;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+html,
+body,
+#root {
+  margin: 0;
+  min-height: 100%;
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  min-height: 100vh;
+  overflow-x: hidden;
+  background: linear-gradient(180deg, #f8fafc 0%, #ecfeff 100%);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@media (max-width: 640px) {
+  html,
+  body,
+  #root {
+    min-height: 100dvh;
+    height: 100dvh;
+  }
+
+  body {
+    overscroll-behavior-y: none;
+  }
+}

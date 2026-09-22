@@ -1,0 +1,6 @@
+{
+  "name": "Mental Health Chatbot & Wellness Platform",
+  "description": "An empathetic mental health chatbot featuring NLP sentiment analysis, cognitive reframing, guided coping strategies, encrypted storage, and user engagement analytics.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
